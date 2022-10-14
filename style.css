@@ -47,9 +47,8 @@ h2 {
     line-height: 35px;
 }
 
-.picture{
+#picture{
     border-radius: 1000px;
-    text-align: center;
 }
 
 #description {
