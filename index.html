@@ -14,29 +14,50 @@
         font-family: Montserrat, sans-serif;
         font-size: 20px;
         background-color:rgb(190, 224, 195);
-        line-height: 30px;
+        line-height: 30px; 
     }
+
     .centro {
         text-align: center;
     }
+
     h1 {
         text-decoration:overline;
         text-decoration-color: rgb(0, 0, 0);
         background-color:lavender;
     }
+
     h3{
         text-decoration: overline;
         text-decoration-color:rgb(29, 90, 39) ;
-        font-size: 1.5em;
+        font-size: 1.7em;
         color:rgb(29, 90, 39); 
     }
+
     h2 {
         background-color: lavender;
     }
-    .links {
-        color: black;
+
+    .negrito {
+        font-size: 21px;
     }
 
+    .media {
+        font-size: 19px;
+    }
+
+    #disciplinado {
+        font-size: 17px;
+    }
+
+    #description {
+
+    }
+
+    .picture{
+        border-radius: 1000px;
+        text-align: center;
+    }
     </style>
 </head>
 <body>
@@ -45,17 +66,15 @@
         inicialmente usarei somente HTML.</p>
     <h2 class="centro">Nicolas Zanin Zamboni</h2>
     <br>
-    <a class="centro" href="https://nicolaszamboni.github.io/nicoperfil.png">
-    <img src="nicoperfil.png" alt="Foto de Nicolas Zamboni" width="300px">
-    </a>
+    <img src="nicoperfil.png" alt="Foto de Nicolas Zamboni" width="300px" class="picture">
     <h3>Indice</h3>
     <ul id="ul1">
-        <li class="links"><a href="#sobre">Sobre</a></li>
-        <li class="links"><a href="#habilidades">Habilidades</a></li>
-        <li class="links"><a href="#contato">Links</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Links</a></li>
     </ul>
     <h3 id="sobre">Descrição</h3>
-    <p>Meu nome é Nicolas, tenho 26 anos, moro em Campo Largo/PR. Sou apaixonado em viagem e tecnologia. Sou formado em <strong>Administração de Empresas</strong> pela instituição 
+    <p id="description">Meu nome é Nicolas, tenho 26 anos, moro em Campo Largo/PR. Sou apaixonado em viagem e tecnologia. Sou formado em <strong>Administração de Empresas</strong> pela instituição 
         FAE - Bussiness School. Durante o periodo da faculdade tive a oportunidade de abrir uma empresa no ramo varejista, cujo nome era Pier Outlet,
         que permaneceu aberta entre 2017 a 2019. Após isso tive a felicidade de passar no processo seletivo do Bradesco Seguros para trabalhar como estagiário durante o resto
         da faculdade. 
@@ -65,12 +84,12 @@
     </p>
     <h3 id="habilidades">Habilidades</h3>
     <ul>
-        <li><strong>Proativo</strong></li>
-        <li>Empatico</li>
-        <li>Persistente</li>
-        <li>Dedicado</li>
-        <li><strong>Flexivel</strong></li>
-        <li>Disciplinado</li>
+        <li class="negrito"><strong>Proativo</strong></li>
+        <li class="media">Empatico</li>
+        <li class="media">Persistente</li>
+        <li class="media">Dedicado</li>
+        <li class="negrito"><strong>Flexivel</strong></li>
+        <li id="disciplinado">Disciplinado</li>
     </ul>
     <h3 id="contato">Links</h3>
     <h4>Redes Sociais</h4>
