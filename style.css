@@ -1,6 +1,6 @@
     body {
     font-family: Montserrat, sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     background-color:rgb(190, 224, 195);
     line-height: 30px; 
 }
@@ -49,7 +49,6 @@ h2 {
 
 .picture{
     border-radius: 1000px;
-    word-spacing: 100px;
 }
 
 #description {
