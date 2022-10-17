@@ -22,13 +22,11 @@ body {
 }
 
 .fotosobre {
-
     margin: 0 10px;
     display: inline-block;
 }
 
 .foto {
-    background-color: white;
     width: 20%;
     padding-left: 1%;
 }
