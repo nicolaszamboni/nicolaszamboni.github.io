@@ -6,6 +6,23 @@
     line-height: 30px;
 }
 
+#nicolas {
+    margin: 5% 0%;
+}
+
+#nome {
+    text-align: center;
+}
+
+#foto{
+    margin-left: 83%;
+    padding: 10px;
+    background-color:whitesmoke;
+}
+
+#sobre{
+
+}
 .centro {
     text-align: center;
 }
