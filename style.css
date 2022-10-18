@@ -19,18 +19,9 @@ body {
 }
 
 .fotosobre {
-    margin: 0 10px;
     display: inline-block;
 }
 
-.foto {
-    width: 20%;
-    padding-left: 1%;
-}
-
-.sobre {
-    width: 60%;
-}
 .centro {
     text-align: center;
     color: white;
