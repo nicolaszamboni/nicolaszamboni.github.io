@@ -16,21 +16,26 @@ body {
 
 #nome {
     text-align: center;
+    font-size: 26px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fotosobre {
-    margin: 0 10px;
     display: inline-block;
+    margin: 0 auto;
 }
 
 .foto {
-    width: 20%;
-    padding-left: 1%;
+    margin-left: 350px;
 }
 
 .sobre {
-    width: 60%;
+    width: 700px;
+    margin-left: 100px;
 }
+
 .centro {
     text-align: center;
     color: white;
@@ -42,10 +47,6 @@ h3{
     text-decoration: overline;
     text-decoration-color:rgb(0, 0, 0) ;
     font-size: 1.7em;
-}
-
-h2 {
-    background-color: rgb(255, 255, 255);
 }
 
 .negrito {
@@ -86,5 +87,5 @@ h4 {
 
 #copyright {
     color:white;
-    margin-left: 70%;
+    padding-left: 68%;
 }
